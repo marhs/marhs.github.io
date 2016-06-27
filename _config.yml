@@ -1,28 +1,32 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink:           pretty
 
 # Setup
-title:            Human learning
-tagline:          'My career as a computer engineer'
-url:              http://marhs.me
-paginate:         1
-baseurl:          /
+title:               Poole
+tagline:             The Jekyll Butler
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
 author:
-  name:           Marco Herrero
-  url:            https://marhs.de
-  email:          me@marhs.de
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
 # Custom vars
-version:          1.0.0
+version:             2.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:              https://github.com/poole/poole
 
-
-pages_list:
-    About: '/about'
-    Archive: '/archive'
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
