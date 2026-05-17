@@ -40,3 +40,7 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+# Coding-session scratch files
+HANDOFF.md
+TASKS.md
